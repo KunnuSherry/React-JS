@@ -43,6 +43,9 @@ class ClassBasedComponents extends Component {
             })
         }
     }
+    componentWillUnmount(){
+        console.log("Component will get destroyed");
+    }
 
   render() {
     return (

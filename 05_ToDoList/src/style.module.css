@@ -1,0 +1,12 @@
+.headerTitle{
+    font-size: 100px;
+}
+.mainWrapper{
+    padding: 20px;
+}
+.todoWrapper{
+    /* width: 100vw; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
